@@ -1,0 +1,16 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		7987 8103 13384 
+	}
+	
+	history={
+		owner = SUD
+	}
+	
+	manpower=8143
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

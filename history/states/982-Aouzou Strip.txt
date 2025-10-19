@@ -1,0 +1,22 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		13366 
+	}
+	
+	state_category = wasteland
+
+	
+	history={
+		owner = EDI
+		add_core_of = EDI
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

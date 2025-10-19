@@ -1,0 +1,15 @@
+characters = {
+	ITA_francesco_ioele = {
+		name = "Francesco Ioele" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Francesco_Ioele
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

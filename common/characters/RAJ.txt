@@ -1,0 +1,15 @@
+characters={
+	RAJ_b_r_ambedkar={
+		name=RAJ_b_r_ambedkar
+		portraits={
+			civilian={
+				large=GFX_portrait_B_R_Ambedkar
+			}
+		}
+		country_leader={
+			ideology=liberal_socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

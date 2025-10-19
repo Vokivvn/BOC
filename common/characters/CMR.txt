@@ -1,0 +1,16 @@
+characters = {
+	CMR_konstantin_von_neurath = {
+		name = "Konstantin von Neurath" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Konstantin_von_Neurath
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

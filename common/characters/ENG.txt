@@ -1,0 +1,20 @@
+characters = {
+
+	# Robert Carr
+	ENG_archibald_sinclair = { 
+		name = "Archibald Sinclair"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Archibald_Sinclair
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

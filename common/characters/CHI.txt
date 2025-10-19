@@ -1,0 +1,15 @@
+characters = {
+	CHI_Cheng_Qian = {
+		name = "Cheng Qian" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Cheng_Qian
+			}
+		}
+		country_leader = {
+			ideology = religious_socialism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

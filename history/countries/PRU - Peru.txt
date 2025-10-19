@@ -1,0 +1,15 @@
+﻿capital = 303 # Lima
+
+set_politics = {
+	ruling_party = philosophical_thought
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	philosophical_thought = 100
+}
+
+recruit_character = PRU_toribio_mejia_xesspe
+
+

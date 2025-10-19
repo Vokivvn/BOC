@@ -1,0 +1,23 @@
+
+state={
+	id=782
+	name="STATE_782" # Tombouctou
+	manpower = 79243
+	
+	state_category = wasteland
+
+	history={
+		owner = AZA
+		add_core_of = AZA
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1115 2068 4913 5101 7939 10725 10788 10868 13395 13396 
+	}
+
+	local_supplies=0.0 
+}

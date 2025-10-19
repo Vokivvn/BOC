@@ -1,0 +1,15 @@
+characters = {
+	FIN_Antti_Isotalo = {
+		name = "Antti Isotalo" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Antti_Isotalo
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	# George Antonius
+	OMA_George_Antonius = { 
+		name = "George Antonius"
+		portraits = {
+			civilian = {
+				large = GFX_OMA_George_Antonius
+			}
+		}
+		country_leader = {
+			ideology = fiscal_conservatism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

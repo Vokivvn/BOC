@@ -1,0 +1,22 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		2035 10874 13354 13372 13373 13377 
+	}
+	
+	history={
+		owner = FDL
+		
+		1938.10.25 = {		
+			AZL = {
+				set_province_controller = 13372
+				set_province_controller = 13373
+			} 			
+		}
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

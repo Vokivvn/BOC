@@ -1,0 +1,20 @@
+characters = {
+
+	# Richard von Coudenhove-Kalergi
+	FRA_richard_von_coudenhove_kalergi = { 
+		name = "Richard von Coudenhove-Kalergi"
+		portraits = {
+			civilian = {
+				large = FRA_richard_von_coudenhove_kalergi
+			}
+		}
+		country_leader = {
+			ideology = elitist_liberalism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

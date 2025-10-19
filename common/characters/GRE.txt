@@ -1,0 +1,20 @@
+characters = {
+
+	# Konstantinos Karamanlis
+	GRE_konstantinos_karamanlis = { 
+		name = GRE_konstantinos_karamanlis
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GRE_konstantinos_karamanlis
+			}
+		}
+		country_leader = {
+			ideology = cameralism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

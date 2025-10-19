@@ -1,0 +1,16 @@
+characters = {
+	ROM_Nichifor_Crainic = { 
+		name = "Nichifor Crainic"
+		portraits = {
+			civilian = {
+				large = GFX_ROM_Nichifor_Crainic
+			}
+		}
+		country_leader = {
+			ideology = aristocratic_reaction
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

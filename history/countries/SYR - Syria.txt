@@ -1,0 +1,22 @@
+﻿capital = 554
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberalism = 100
+}
+
+create_country_leader = {
+	name = "Hashim al-Atassi"
+	desc = ""
+	picture = "gfx/leaders/SYR/Portrait_Hashim_al_Atassi.png"
+	ideology = national_liberalism
+	traits = {
+		#
+	}
+}

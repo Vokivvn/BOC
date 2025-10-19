@@ -1,0 +1,23 @@
+﻿capital = 219 # Moscow
+
+set_politics = {
+	ruling_party = cosmism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	cosmism = 100
+}
+
+create_faction = cosmist_international
+add_to_faction = SOV
+add_to_faction = POL
+add_to_faction = KAZ
+add_to_faction = TAN
+add_to_faction = TKS
+
+recruit_character = SOV_ivan_yefremov
+
+

@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+
+		GER_ = {
+				
+			allowed = {
+				original_tag = GER
+			}
+
+			picture = generic_agrarian_society
+				
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factory = -0.30
+				conscription_factor = -0.45
+			}
+		}
+	}
+	
+	
+}

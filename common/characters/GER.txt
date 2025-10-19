@@ -1,0 +1,36 @@
+characters = {
+
+	# Marie-Elisabeth Luders
+	GER_marie_elisabeth_luders = { 
+		name = GER_marie_elisabeth_luders
+		portraits = {
+			civilian = {
+				large = GFX_GER_Marie_Elisabeth_Luders
+			}
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	
+	# Alfred Rosenberg
+	GER_alfred_rosenberg = { 
+		name = GER_alfred_rosenberg
+		portraits = {
+			civilian = {
+				large = HOA_GFX_Alfred_Rosenberg
+			}
+		}
+		country_leader = {
+			ideology = social_darwinism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

@@ -1,0 +1,16 @@
+state={
+	id=455
+	name="STATE_455"
+	provinces={
+		1 7001 7151 7170 
+	}
+	
+	history={
+		owner = ISR
+	}
+	
+	manpower=932000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

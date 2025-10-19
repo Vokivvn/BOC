@@ -1,0 +1,15 @@
+characters = {
+	USA_Glen_Taylor = {
+		name = "Glen H. Taylor" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Glen_Taylor
+			}
+		}
+		country_leader = {
+			ideology = left_wing_populism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

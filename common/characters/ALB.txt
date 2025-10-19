@@ -1,0 +1,15 @@
+characters = {
+	ALB_Franciszek_Nopcsa = {
+		name = "Franciszek Nopcsa" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Franciszek_Nopcsa
+			}
+		}
+		country_leader = {
+			ideology = enlightened_absolutism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

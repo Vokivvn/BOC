@@ -1,0 +1,331 @@
+﻿add_namespace = FRA
+
+country_event = { #Intro 
+	id = FRA.1
+	title = FRA.1.t
+	desc = FRA.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.1.a
+	}
+}
+
+country_event = { #Algerian push for independence 
+	id = FRA.2
+	title = FRA.2.t
+	desc = FRA.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.2.a
+	}
+}
+
+country_event = { #A European Dream 
+	id = FRA.3
+	title = FRA.3.t
+	desc = FRA.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.3.a
+	}
+}
+
+country_event = { #Algerian Protests 
+	id = FRA.50
+	title = FRA.50.t
+	desc = FRA.50.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.50.a
+		hidden_effect = {
+			FRA = {
+				country_event = { id = FRA.51 days = 6 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Situation Worsens 
+	id = FRA.51
+	title = FRA.51.t
+	desc = FRA.51.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.51.a
+		hidden_effect = {
+			FRA = {
+				country_event = { id = FRA.52 days = 15 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Situation Worsens 
+	id = FRA.52
+	title = FRA.52.t
+	desc = FRA.52.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.52.a
+		hidden_effect = {
+			FNA = {
+				transfer_state = 458
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 514
+				transfer_state = 665
+				transfer_state = 783
+				transfer_state = 1031
+				transfer_state = 1032
+				transfer_state = 1040
+				load_oob = "FNA_REVOLT"
+			}
+			ALG = {
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 513
+				load_oob = "ALG_REVOLT"
+				declare_war_on = {
+					target = FNA
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.60
+	title = FRA.60.t
+	desc = FRA.60.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.60.a
+		hidden_effect = {
+			white_peace = ALG
+			ALG = {
+				transfer_state = 460
+				transfer_state = 459
+				transfer_state = 513
+				transfer_state = 514
+				transfer_state = 1040
+			}
+			FRA = {
+				country_event = { id = FRA.61 days = 3 } 
+				country_event = { id = FRA.63 days = 21 }
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.61
+	title = FRA.61.t
+	desc = FRA.61.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FRA.61.a
+		hidden_effect = {
+			FRA = {
+				end_puppet = AZA
+			}
+			AZA = {
+				leave_faction
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.63
+	title = FRA.63.t
+	desc = FRA.63.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.63.a
+		hidden_effect = {
+			MOR = {
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 783
+				transfer_state = 1032
+			}
+			FRA = {
+				country_event = { id = FRA.68 days = 36 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.68
+	title = FRA.68.t
+	desc = FRA.68.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.68.a
+		hidden_effect = {
+			TUN = {
+				transfer_state = 458
+				transfer_state = 665
+			}
+			FRA = {
+				country_event = { id = FRA.69 days = 9 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.69
+	title = FRA.69.t
+	desc = FRA.69.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.69.a
+		hidden_effect = {
+			TGR = {
+				transfer_state = 1031
+			}
+			FRA = {
+				country_event = { id = FRA.70 days = 15 } 
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.70
+	title = FRA.70.t
+	desc = FRA.70.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.70.a
+		hidden_effect = {
+			KAH = {
+				transfer_state = 1040
+			}
+		}
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.78
+	title = FRA.78.t
+	desc = FRA.78.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.78.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = revolutionary_socialism
+		}
+		set_party_name = { 
+			ideology = revolutionary_socialism 
+			long_name = FRA_PFNC_party_long
+			name = FRA_PFNC_party
+		}
+		create_country_leader = {
+			name = "Pierre Clémenti"
+			desc = "POLITICS_PIERRE_CLEMENTI_DESC"
+			picture = "GFX_FRA_Pierre_Clementi"
+			expire = "1965.1.1"
+			ideology = nationalist_socialism
+				traits = 
+			}
+		}
+		set_cosmetic_tag = FRA_national_collectivist
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.79
+	title = FRA.79.t
+	desc = FRA.79.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.79.a
+		hidden_effect = {
+		set_politics = {
+			ruling_party = revolutionary_right
+		}
+		set_party_name = { 
+			ideology = revolutionary_right 
+			long_name = FRA_new_order_party_long
+			name = FRA_new_order_party
+		}
+		create_country_leader = {
+			name = "René Binet"
+			desc = "POLITICS_RENE_BINET_DESC"
+			picture = "GFX_FRA_Rene_Binet"
+			expire = "1965.1.1"
+			ideology = national_syndicalism
+				traits = 
+			}
+		}
+		set_cosmetic_tag = FRA_new_order
+	}
+}
+
+country_event = { #Algeria Wins 
+	id = FRA.80
+	title = FRA.80.t
+	desc = FRA.80.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #intro
+		name = FRA.80.a
+		FRA = {
+			leave_faction
+			add_to_faction = GER
+		}
+		GER = {
+			Add_to_faction = FRA
+		}
+	}
+}

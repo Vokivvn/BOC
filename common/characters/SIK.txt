@@ -1,0 +1,15 @@
+characters = {
+	SIK_Isa_Yusuf_Alptekin = {
+		name = "Isa Yusuf Alptekin" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Isa_Yusuf_Alptekin
+			}
+		}
+		country_leader = {
+			ideology = synthesism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

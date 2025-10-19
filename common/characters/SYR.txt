@@ -1,0 +1,16 @@
+characters = {
+	SYR_hashim_al_atassi = {
+		name = "Hashim al-Atassi" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Hashim_al_Atassi
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+	}
+}
+	

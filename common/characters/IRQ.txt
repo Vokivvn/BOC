@@ -1,0 +1,15 @@
+characters={
+	IRQ_abdulkarim_qasim={
+		name="Abdulkarim Qasim"
+		portraits={
+			civilian={
+				large="GFX_portrait_abdulkarim_qasim"
+			}
+		}
+		country_leader={
+			ideology=palingeneticism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

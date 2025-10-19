@@ -1,0 +1,17 @@
+characters={
+	YUG_vladimir_velmar_jankovic={
+		name=YUG_vladimir_velmar_jankovic
+		portraits={
+			civilian={
+				large=GFX_portrait_YUG_vladimir_velmar_jankovic
+			}
+		}
+		country_leader={
+			ideology=integral_nationalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}
+

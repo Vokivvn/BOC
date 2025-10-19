@@ -1,0 +1,16 @@
+characters = {
+	POL_Eugeniusz_Rybka = {
+		name = "Eugeniusz Rybka" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Eugeniusz_Rybka
+			}
+		}
+		country_leader = {
+			ideology = new_thought
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

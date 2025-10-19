@@ -1,0 +1,15 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		986 1562 3677 3678 3784 3840 4518 6861 6881 7517 9637 9671 9814 9855 9911 11757 11859 11876 
+	}
+	
+	history={
+		owner = SSA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+characters = {
+	HUN_jozsef_ferenc_i = {
+		name = "József Ferenc I" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Jozsef_Ferenc_I
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

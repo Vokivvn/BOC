@@ -1,0 +1,25 @@
+﻿capital = 64 # Berlin
+
+oob = "GER_1950"
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	progressivism = 100
+}
+
+recruit_character = GER_marie_elisabeth_luders
+recruit_character = GER_alfred_rosenberg
+
+set_autonomy = {
+	target = CMR
+	autonomous_state = autonomy_condominium
+	freedom_level = 0.2
+}
+
+

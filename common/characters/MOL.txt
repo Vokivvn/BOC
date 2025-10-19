@@ -1,0 +1,18 @@
+characters={
+
+	# Tristan Tzara
+	MOL_tristan_tzara = { 
+		name = MOL_tristan_tzara
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MOL_Tristan_Tzara
+			}
+		}
+		country_leader = {
+			ideology = dadaism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
