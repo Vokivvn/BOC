@@ -10,6 +10,6 @@ set_popularities = {
 	institutionalism = 100
 }
 
-recruit_character = AUS_viktor_reimann
+recruit_character = NVR_Georgius_Saviour
 
 

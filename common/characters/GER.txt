@@ -2,7 +2,7 @@ characters = {
 
 	# Marie-Elisabeth Luders
 	GER_marie_elisabeth_luders = { 
-		name = GER_marie_elisabeth_luders
+		name = "Marie-Elisabeth Lüders"
 		portraits = {
 			civilian = {
 				large = GFX_GER_Marie_Elisabeth_Luders
@@ -26,6 +26,22 @@ characters = {
 		}
 		country_leader = {
 			ideology = social_darwinism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	
+	# Arnolt Bronnen
+	GER_Arnolt_Bronnen = { 
+		name = "Arnolt Bronnen"
+		portraits = {
+			civilian = {
+				large = GFX_GER_Arnolt_Bronnen
+			}
+		}
+		country_leader = {
+			ideology = nationalist_socialism
 			traits = { }
 			expire = "1965.1.1.1"
 			id = -1

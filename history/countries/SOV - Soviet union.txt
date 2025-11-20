@@ -17,6 +17,7 @@ add_to_faction = POL
 add_to_faction = KAZ
 add_to_faction = TAN
 add_to_faction = TKS
+add_to_faction = MOL
 
 recruit_character = SOV_ivan_yefremov
 

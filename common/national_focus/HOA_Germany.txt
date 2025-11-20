@@ -8,9 +8,9 @@
 		}
 	}
 	default = no
-	shared_focus = GER_einheit_freiheit_vaterland
+	shared_focus = GER_the_great_war_in_review
 	initial_show_position = {
-		focus = GER_einheit_freiheit_vaterland
+		focus = GER_the_great_war_in_review
 	}
 }
 

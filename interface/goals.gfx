@@ -3,19 +3,54 @@ spriteTypes = {
 	#### GER focus tree
 
 	SpriteType = {
-	name = "GFX_GER_the_iron_front"
-	texturefile = "gfx/interface/goals/focus_GER_the_iron_front.png"			
+	name = "GFX_GER_the_great_war_in_review"
+	texturefile = "gfx/interface/goals/GER/focus_GER_the_great_war_in_review.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_GER_german_art_is_free_art"
-	texturefile = "gfx/interface/goals/focus_GER_german_art_is_free_art.png"			
+	name = "GFX_GER_our_losses"
+	texturefile = "gfx/interface/goals/GER/Our Losses, Deserved and Not.png"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_GER_kulturkampf_victory"
+	texturefile = "gfx/interface/goals/GER/Victory In The Kulturkampf.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_GER_new_germany"
+	texturefile = "gfx/interface/goals/GER/New Germany, Upon Us All.png"			
+	}
 
 	SpriteType = {
-	name = "GFX_GER_learn_from_the_depression"
-	texturefile = "gfx/interface/goals/focus_GER_learn_from_the_depression.png"			
+	name = "GFX_GER_forward"
+	texturefile = "gfx/interface/goals/GER/From Where We Go Forward.png"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_GER_final_touches"
+	texturefile = "gfx/interface/goals/GER/Final Touches To Our Term.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_GER_for_the_german_worker"
+	texturefile = "gfx/interface/goals/GER/focus_GER_for_the_german_worker.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_GER_for_the_unemployed"
+	texturefile = "gfx/interface/goals/GER/focus_GER_for_the_unemployed.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_GER_last_calls"
+	texturefile = "gfx/interface/goals/GER/focus_GER_last_calls.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_GER_election_season"
+	texturefile = "gfx/interface/goals/GER/focus_GER_election_season.png"			
+	}
 
 	SpriteType = {
 	name = "GFX_GER_sturm_sturm_sturm"

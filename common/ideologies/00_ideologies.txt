@@ -955,7 +955,7 @@ ideologies = {
 			kleptocracy = {
 			}
 
-			musocracy = {
+			mesocracy = {
 			}
 
 			caesarism = {

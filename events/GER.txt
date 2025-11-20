@@ -24,6 +24,7 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = GER.40.a
 		hidden_effect = {
+		set_cosmetic_tag = GER_rosenberg
 		set_politics = {
 			ruling_party = revolutionary_right
 			}
@@ -56,6 +57,21 @@ country_event = { #Junger
 			}
 		}
 		load_focus_tree = GER_junger
+	}
+}
+
+country_event = { #Junger 
+	id = GER.50
+	title = GER.50.t
+	desc = GER.50.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.50.a
+		hidden_effect = {
+		set_cosmetic_tag = GER_communist
 	}
 }
 

@@ -48,6 +48,7 @@ add_to_faction = HOL
 add_to_faction = CZE
 add_to_faction = RHI
 add_to_faction = LUX
+add_to_faction = GER
 
 recruit_character = FRA_richard_von_coudenhove_kalergi
 

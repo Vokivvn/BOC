@@ -35,7 +35,12 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_GER_Ernst_Junger"
-		texturefile = "gfx/leaders/GER/Portrait_GER_Ernst_Junger.png"
+		texturefile = "gfx/leaders/GER/Leader_GER_Ernst_Jünger.png"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_Arnolt_Bronnen"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Arnolt_Bronnen.png"
 	}
 
 ## CILICIA
@@ -121,8 +126,8 @@ spriteTypes = {
 ## USA
 
 	spriteType = {
-		name = "GFX_portrait_Glen_Taylor"
-		texturefile = "gfx/leaders/USA/Portrait_USA_Glen_Taylor.png"
+		name = "GFX_portrait_Henry_Wallace"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Henry_Wallace.png"
 	}
 	
 # NETHERLANDS
@@ -246,6 +251,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_B_R_Ambedkar"
 		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_B_R_Ambedkar.png"
+	}
+	
+# AUSTRIA 
+	spriteType = {
+		name = "GFX_portrait_AUS_friedrich_hayek"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Hayek.png"
+	}
+	
+# NOVA ROMA 
+	spriteType = {
+		name = "GFX_portrait_Georgius_Saviour"
+		texturefile = "gfx/leaders/NVR/Portrait_NVR_Georgius_Saviour.png"
+	}
+	
+# BORKOU 
+	spriteType = {
+		name = "GFX_portrait_Mehmed_Wehib_Pasha"
+		texturefile = "gfx/leaders/EDI/Portrait_EDI_Mehmed_Wahib_Pasha.png"
 	}
 	
 }

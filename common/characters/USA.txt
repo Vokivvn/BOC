@@ -1,9 +1,9 @@
 characters = {
-	USA_Glen_Taylor = {
-		name = "Glen H. Taylor" 
+	USA_Henry_Wallace = {
+		name = "Henry Wallace" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Glen_Taylor
+				large = GFX_portrait_Henry_Wallace
 			}
 		}
 		country_leader = {

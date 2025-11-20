@@ -2,22 +2,15 @@ state={
 	id=749
 	name="STATE_749"
 	provinces={
-		1099 1125 1153 1171 4105 4173 7007 7104 10044 11937 12019 
+		996 1089 1099 1125 1153 1171 4091 4105 4173 7007 7104 7120 10044 10076 11913 11928 11937 11982 12019 13142 
 	}
+	
+	history={
+		owner = CHI
+	}
+	
 	manpower=5000000
 	buildings_max_level_factor=1.000
 	state_category=town
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			12019 1
-		}
-	}
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

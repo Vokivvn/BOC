@@ -1,6 +1,16 @@
+GER_rosenberg = {
+	color = rgb { 89 77 77 }
+	color_ui = rgb { 89 77 77 }
+}
+
 GER_junger = {
 	color = rgb { 167 150 139 }
 	color_ui = rgb { 0 51 153 }
+}
+
+GER_communist = {
+	color = rgb { 135 77 66 }
+	color_ui = rgb { 135 77 66 }
 }
 
 EGY_republic = {
@@ -16,4 +26,9 @@ SUD_free = {
 ITC_free = {
 	color = rgb { 0 117 46 }
 	color_ui = rgb { 200 10 10 }
+}
+
+GER_socialist = {
+	color = rgb { 142 42 46 }
+	color_ui = rgb { 142 42 46 }
 }

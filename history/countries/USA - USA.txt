@@ -21,6 +21,6 @@ add_to_faction = MET
 add_to_faction = DET
 add_to_faction = MSQ
 
-recruit_character = USA_Glen_Taylor
+recruit_character = USA_Henry_Wallace
 
 

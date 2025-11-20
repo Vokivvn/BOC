@@ -132,30 +132,7 @@ country_event = { #Algeria Wins
 				transfer_state = 1040
 			}
 			FRA = {
-				country_event = { id = FRA.61 days = 3 } 
 				country_event = { id = FRA.63 days = 21 }
-			}
-		}
-	}
-}
-
-country_event = { #Algeria Wins 
-	id = FRA.61
-	title = FRA.61.t
-	desc = FRA.61.d
-	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
-	
-	option = {
-		name = FRA.61.a
-		hidden_effect = {
-			FRA = {
-				end_puppet = AZA
-			}
-			AZA = {
-				leave_faction
-				}
 			}
 		}
 	}
@@ -220,27 +197,6 @@ country_event = { #Algeria Wins
 		hidden_effect = {
 			TGR = {
 				transfer_state = 1031
-			}
-			FRA = {
-				country_event = { id = FRA.70 days = 15 } 
-			}
-		}
-	}
-}
-
-country_event = { #Algeria Wins 
-	id = FRA.70
-	title = FRA.70.t
-	desc = FRA.70.d
-	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
-	
-	option = { #intro
-		name = FRA.70.a
-		hidden_effect = {
-			KAH = {
-				transfer_state = 1040
 			}
 		}
 	}

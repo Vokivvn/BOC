@@ -1,9 +1,9 @@
 characters = {
 
 
-	RHI_josef_friedrich_matthes = {
+	RHI_Franz_Blucher = {
 
-		name = RHI_josef_friedrich_matthes
+		name = "Franz Blücher" 
 
 		portraits = {
 			civilian = {

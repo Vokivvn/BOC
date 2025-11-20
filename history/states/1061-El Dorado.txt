@@ -1,0 +1,15 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		2007 7991 10846 12729 12770 12825 
+	}
+	
+	history={
+		owner = ELD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

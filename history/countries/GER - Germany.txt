@@ -15,6 +15,7 @@ set_popularities = {
 
 recruit_character = GER_marie_elisabeth_luders
 recruit_character = GER_alfred_rosenberg
+recruit_character = GER_Arnolt_Bronnen
 
 set_autonomy = {
 	target = CMR

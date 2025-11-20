@@ -62,10 +62,6 @@ country_event = { #Jerusalem Civil War
 		HAS = {
 			transfer_state = 1054
 			declare_war_on = {
-    			target = SNP
-    			type = annex_everything
-			}
-			declare_war_on = {
     			target = ZIO
     			type = annex_everything
 			}
@@ -78,6 +74,18 @@ country_event = { #Jerusalem Civil War
 		SNP = {
 			transfer_state = 554
 			load_oob = SNP_WAR
+			declare_war_on = {
+    			target = HAS
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ZIO
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = PAL
+    			type = annex_everything
+			}
 		}
 		ALA = {
 			transfer_state = 1060
