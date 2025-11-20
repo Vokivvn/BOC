@@ -1,0 +1,16 @@
+characters = {
+	NVR_Georgius_Saviour = {
+		name = "Georgius Saviour" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Georgius_Saviour
+			}
+		}
+		country_leader = {
+			ideology = legalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

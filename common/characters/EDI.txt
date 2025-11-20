@@ -1,0 +1,16 @@
+characters = {
+	EDI_Mehmed_Wehib_Pasha = {
+		name = "Mehmed Wehib Pasha" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Mehmed_Wehib_Pasha
+			}
+		}
+		country_leader = {
+			ideology = legalism
+			expire = "1970.1.1.1"
+			id = -1
+		}
+	}
+}
+	
